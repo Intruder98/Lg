@@ -34,7 +34,7 @@ read -p "--> " act;
 
 if [ $act = 01 ] || [ $act = 01 ]
 then
-echo -e $blue"Kerja sono!"
+echo -e $blue" Kerja sono! "
 sleep 1
 read enter
 exit
@@ -42,7 +42,7 @@ fi
 
 if [ $act = 02 ] || [ $act = 02 ]
 then
-echo -e $blue"Dih sombong>:( Bagi dong!"
+echo -e $blue" Dih sombong>:( Bagi dong! "
 sleep 1
 read enter
 exit
