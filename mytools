@@ -22,6 +22,7 @@ echo -e $green"[#]> Terima kasih sudah make tools saya ... "
 sleep 1
 echo ""
 read enter
+echo -e $red"[#]Bye"
 exit
 }
 
