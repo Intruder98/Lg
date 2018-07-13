@@ -33,6 +33,7 @@ echo -e $okegreen" 02) Gak deh gw punya banyak"
 read -p "--> " act;
 
 if [ $act = 01 ] || [ $act = 01 ]
+then
 echo -e $blue" kerja sono! "
 sleep 1
 read enter
@@ -40,6 +41,7 @@ exit
 fi
 
 if [ $act = 02 ] || [ $act = 02 ]
+then
 echo -e $blue" dih sombong>:( bagi dong! "
 sleep 1
 read enter
