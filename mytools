@@ -1,0 +1,49 @@
+#!/bin/bash
+
+blue='\e[0;34'
+cyan='\e[0;36m'
+green='\e[0;34m'
+okegreen='\033[92m'
+lightgreen='\e[1;32m'
+white='\e[1;37m'
+red='\e[1;31m'
+yellow='\e[1;33m'
+
+###################################################
+# CTRL C
+###################################################
+trap ctrl_c INT
+ctrl_c() {
+clear
+echo -e $red"[#]> (Ctrl + C ) Detected, Trying To Exit ... "
+sleep 1
+echo ""
+echo -e $green"[#]> Terima kasih sudah make tools saya ... "
+sleep 1
+echo ""
+echo -e $white"[#]> Mr.Cakil Wuzz Here ... "
+read enter
+exit
+}
+
+
+echo -e $yellow"Mau duit gak?"
+echo -e $green" 01) Mau dong!"
+echo -e $green" 02) Gak deh gw punya banyak"
+read -p "[my@Tools]> " act;
+
+if [ $act = 01 ] || [ $act = 01 ]
+then
+echo -e $cyan"Kerja sono!"
+sleep 1
+read enter
+exit
+fi
+
+if [ $act = 02 ] || [ $act = 02 ]
+then
+echo -e $green"Dih sombong>:( Bagi dong!"
+sleep 1
+read enter
+exit
+fi
