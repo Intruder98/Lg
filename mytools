@@ -21,16 +21,15 @@ echo ""
 echo -e $green"[#]> Terima kasih sudah make tools saya ... "
 sleep 1
 echo ""
-echo -e $white"[#]> Mr.Cakil Wuzz Here ... "
 read enter
 exit
 }
 
 
 echo -e $yellow"Mau duit gak?"
-echo -e $green" 01) Mau dong!"
-echo -e $green" 02) Gak deh gw punya banyak"
-read -p "[my@Tools]> " act;
+echo -e $okegreen" 01) Mau dong!"
+echo -e $okegreen" 02) Gak deh gw punya banyak"
+read -p "--> " act;
 
 if [ $act = 01 ] || [ $act = 01 ]
 then
@@ -47,3 +46,4 @@ sleep 1
 read enter
 exit
 fi
+
